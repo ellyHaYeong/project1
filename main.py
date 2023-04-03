@@ -9,6 +9,14 @@ def sub_func(n1,n2):
 
 def mul_func(n1,n2):
     return n1*n2
+
+
+def div_func(n1,n2):
+    return n1/n2
+
+def mul_func(n1,n2):
+    return n1*n2*n2
+
     
 
 ##전역 변수부(클래스 변수, 인스턴스 변수)
@@ -23,3 +31,10 @@ print(num1,'-',num2,'=',result)
 
 result = mul_func(num1,num2)
 print(num1,'*',num2,'=',result)
+
+
+result = div_func(num1,num2)
+print(num1,'/',num2,'=',result)
+
+result = mul_func(num1,num2)
+print(num1,'*',num2,'*',num2,'=',result)
